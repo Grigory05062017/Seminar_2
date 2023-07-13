@@ -9,10 +9,13 @@ Console.Write("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 if (n <= 99)
+    {
     Console.WriteLine("третьей цифры нет");
 return;
+    }
 
 while (n >= 1000)
+
 {
    n = n/10;
 }
